@@ -12,12 +12,9 @@ body{
 
 
 .header{
-    display:flex;
-    justify-content: space-around;
     font-size: 24px;
-    background-color: #1F2937;
     color:#F9FAF8;
-    align-items: center;
+    padding-bottom:0;
 }
 
 .header-links{
@@ -25,36 +22,59 @@ body{
     align-items: center;
     color:#E5E7EB;
     font-size: 18px;
-    gap:10px;
+    gap:15px;
 }
 
 .hero-section{
+    
+    
+
+}
+
+.hero-section,.header{
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom:80px;
+    flex-wrap: nowrap;
+
     background-color: #1F2937;
     display:flex;
-    justify-content: space-around;
-    padding:40px;
     
+
+    align-content:center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-section .main-text{
+    
     font-size: 48px;
     font-weight: 900;
-    
+}
+.hero-text .secondary-text{
+    display:flex;
+    flex-shrink: 0;
+    font-size:18px;
+   
 }
 
 
 .hero-section img{
-    width:400px;
+    width:500px;
     height:200px;
+    background-color: grey;
     
 }
 
 .hero-text{
     display:flex;
-    flex-flow:column nowrap;
+    flex-flow:column wrap;
     color:#F9FAF8;
     align-content:center;
-    justify-content: center;
+    justify-content: space-between;
+    gap:5px;
+    
+    
     
 }
 
