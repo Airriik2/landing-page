@@ -1,1 +1,0 @@
-This is my test landing website using The Odin Project.

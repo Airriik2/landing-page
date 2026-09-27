@@ -15,6 +15,7 @@ body{
     font-size: 24px;
     color:#F9FAF8;
     padding-bottom:0;
+    font-weight:900;
 }
 
 .header-links{
@@ -23,17 +24,18 @@ body{
     color:#E5E7EB;
     font-size: 18px;
     gap:15px;
+    font-weight:100;
+    padding:0;
 }
 
 .hero-section{
-    
-    
 
+gap:10px;
 }
 
 .hero-section,.header{
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:170px;
+    padding-right:170px;
     padding-bottom:80px;
     flex-wrap: nowrap;
 
@@ -44,10 +46,12 @@ body{
     align-content:center;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .hero-section .main-text{
-    
+    display:flex;
+    flex-shrink: 0;
     font-size: 48px;
     font-weight: 900;
 }
@@ -60,20 +64,22 @@ body{
 
 
 .hero-section img{
-    width:500px;
-    height:200px;
+    width:650px;
+    height:300px;
     background-color: grey;
+    margin:10px;
+    display:flex;
+    flex-shrink: 0;
     
 }
 
 .hero-text{
     display:flex;
-    flex-flow:column wrap;
+    flex-flow:column nowrap;
     color:#F9FAF8;
     align-content:center;
     justify-content: space-between;
     gap:5px;
-    
     
     
 }
@@ -88,3 +94,40 @@ body{
     text-align: center;
     
 }
+
+
+
+.info-panel{
+    display:flex;
+    flex-flow:column wrap;
+    align-content: center;
+    align-items: center;
+    padding:20px;
+    
+}
+
+.subtext-boxes{
+    display:flex;
+    flex-direction: row;
+    
+    padding:0;
+    justify-content: space-between;
+    gap:80px;
+    margin:70px;
+
+}
+
+.info-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:38px;
+    font-weight:600;
+}
+
+ .info-box{
+    border:3px solid #3882F6;
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+} 
