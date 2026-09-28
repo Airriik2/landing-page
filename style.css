@@ -8,6 +8,7 @@ body{
     display:flex;
     flex-direction: column;
     margin:0;
+    justify-content: space-between;
     
 }
 
@@ -17,7 +18,16 @@ body{
     padding-right:250px;
     padding-top:100px;
     padding-bottom:100px;
-    flex:0;
+    flex:1;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #3881f657;
 }
 
 .header{
@@ -76,6 +86,7 @@ gap:10px;
     height:300px;
     background-color: grey;
     margin:10px;
+    margin-left:100px;
     display:flex;
     flex-shrink: 0;
     
@@ -92,7 +103,7 @@ gap:10px;
     
 }
 
-.hero-text button{
+.signup-button{
     background-color: #3882F6;
     color:#F9FAF8;
     border-radius: 10px;
@@ -124,6 +135,7 @@ gap:10px;
     
     padding:0;
     justify-content: space-between;
+
     gap:80px;
     margin:70px;
 
@@ -135,7 +147,9 @@ gap:10px;
     justify-content: center;
     font-size:38px;
     font-weight:800;
+    text-align: center;
 }
+
 
  .info-box{
     border:5px solid #3882F6;
@@ -175,4 +189,61 @@ gap:10px;
     align-items: center;
     justify-content: center;
     max-width: 200px;
+    text-align: center;
+    padding-top:7px;
+}
+
+.signup-panel{
+    display:flex;
+    flex-wrap:nowrap;
+    
+    justify-content: space-between;
+}
+
+.signup-text{
+    display:flex;
+    flex-flow: column nowrap;
+    
+    justify-content: space-between;
+}
+
+.signup-box{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width:1800px;
+    display:flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:60px;
+    flex:1;
+}
+
+.signup-title{
+    color:white;
+    font-size:20px;
+    font-weight: 800;
+}
+
+.signup-sub{
+    color:white;
+    font-size:15px;
+    
+}
+
+.signup-box .signup-button{
+    border-color: #E5E7EB;
+    font-weight:600;
+}
+
+.footer{
+    font-size: 10px;
+    color:#F9FAF8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    
 }
